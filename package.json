@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-back",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "build:dev": "tsc --watch",
+    "start:dev": "node . --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "express": "^5.1.0",
+    "serve": "^14.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
