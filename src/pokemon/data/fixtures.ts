@@ -17,3 +17,5 @@ export const jigglypuff = new Pokemon(
   "39",
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
 );
+
+export const testsPokemons = [eevee, mew];
