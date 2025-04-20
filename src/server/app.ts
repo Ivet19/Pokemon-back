@@ -7,7 +7,12 @@ import pokemonsRouter from "../pokemon/router/pokemonsRouter.js";
 
 const app = express();
 
-app.use(cors({ origin: true, credentials: true }));
+app.use(
+  cors({
+    origin: [/^http:\/\/localhost:\d+/, /pokemon2025\.netlify\.app/],
+    credentials: true,
+  }),
+);
 
 app.use(morgan("dev"));
 
